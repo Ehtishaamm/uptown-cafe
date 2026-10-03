@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Up Town Café — Rooftop Café &amp; Restaurant, Islamabad</title>
+<meta name="description" content="Up Town Café is a rooftop café and restaurant in MPCHS E-11/3, Islamabad — open 24 hours, with great coffee, dessert and tea, dine-in, delivery, and reservations.">
+<meta name="keywords" content="Up Town Café, Islamabad rooftop café, MPCHS E-11 restaurant, rooftop restaurant Islamabad">
+<meta property="og:title" content="Up Town Café — Islamabad">
+<meta property="og:description" content="A rooftop café and restaurant in MPCHS E-11/3, Islamabad. Open 24 hours.">
+<meta property="og:type" content="restaurant.restaurant">
+
+<!-- Fonts: Cormorant Garamond (display serif) + Manrope (body/UI) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<!-- Site styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- =============================== -->
+<!-- NAVBAR -->
+<!-- =============================== -->
+<nav class="navbar navbar-expand-lg fixed-top site-nav" id="siteNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      Up Town <span>Café</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hours">Hours</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+          <a class="btn btn-reserve" href="#reserve">Reserve a Table</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- =============================== -->
+<!-- HERO -->
+<!-- =============================== -->
+<header id="home" class="hero">
+  <div id="heroCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-interval="5500">
+    <div class="carousel-inner h-100">
+      <!-- Slide 1: provided rooftop photo -->
+      <div class="carousel-item active h-100">
+        <div class="hero-slide" style="background-image:url('assets/img/hero-1.jpg');"></div>
+      </div>
+      <!--
+        Add more slides later by duplicating the block above.
+        Each new slide needs its own image in assets/img/ and a matching
+        indicator button below (data-bs-slide-to should increment: 0, 1, 2...).
+        Example:
+        <div class="carousel-item h-100">
+          <div class="hero-slide" style="background-image:url('assets/img/hero-2.jpg');"></div>
+        </div>
+      -->
+    </div>
+
+    <!-- Carousel indicators — add one per slide -->
+    <div class="carousel-indicators hero-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="container">
+      <p class="hero-eyebrow">Rooftop · MPCHS E-11/3, Islamabad</p>
+      <h1 class="hero-title">Up Town Café</h1>
+      <p class="hero-tagline">Skyline views, good coffee, and a table that's open whenever you are — night or day.</p>
+      <div class="hero-badges">
+        <span class="hero-badge"><i class="bi bi-clock"></i> Open 24 Hours</span>
+        <span class="hero-badge"><i class="bi bi-cash-coin"></i> Rs 2,000–3,000 per person</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#reserve" class="btn btn-reserve btn-lg">Reserve a Table</a>
+        <a href="#menu" class="btn btn-outline-hero btn-lg">View Menu</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+    <i class="bi bi-chevron-down"></i>
+  </a>
+</header>
+
+<!-- =============================== -->
+<!-- ABOUT -->
+<!-- =============================== -->
+<section id="about" class="section-about">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-5">
+        <p class="section-eyebrow">About us</p>
+        <h2 class="section-title">Above the city,<br>at any hour</h2>
+        <p class="lead-text">
+          Up Town Café sits on a rooftop in MPCHS E-11/3 — a trendy, upscale spot
+          for coffee, dessert, and a proper sit-down meal, whether you're here for
+          a quiet solo evening or a table full of friends. We're open around the clock.
+        </p>
+        <p class="text-muted-warm">
+          Casual by day, a little more romantic once the lights come on.
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-3 about-highlights">
+          <div class="col-sm-6">
+            <div class="highlight-card">
+              <i class="bi bi-cup-hot"></i>
+              <h3>Great Coffee</h3>
+              <p>A proper coffee menu, day and night.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="highlight-card">
+              <i class="bi bi-cake2"></i>
+              <h3>Great Dessert</h3>
+              <p>Something sweet to close out the meal.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="highlight-card">
+              <i class="bi bi-cup-straw"></i>
+              <h3>Great Tea Selection</h3>
+              <p>A tea list built for lingering.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="highlight-card">
+              <i class="bi bi-building"></i>
+              <h3>Rooftop Seating</h3>
+              <p>Open-air tables with a skyline view.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- FEATURES / SERVICES -->
+<!-- =============================== -->
+<section class="section-features">
+  <div class="container">
+    <div class="row g-3 g-md-4">
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-umbrella"></i><span>Outdoor Seating</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-shop"></i><span>Dine-in</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-bicycle"></i><span>Delivery</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-sunrise"></i><span>Brunch</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-basket"></i><span>Lunch</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-moon-stars"></i><span>Dinner</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-moon"></i><span>Late-Night Food</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-stars"></i><span>Happy Hour</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-door-closed"></i><span>Private Dining</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-lightning-charge"></i><span>Quick Bite</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-patch-check"></i><span>Halal Food</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="feature-pill"><i class="bi bi-calendar-check"></i><span>Reservations</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- MENU -->
+<!-- =============================== -->
+<section id="menu" class="section-menu">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-eyebrow">On the table</p>
+      <h2 class="section-title">The Menu</h2>
+      <p class="lead-text mx-auto" style="max-width:36rem;">
+        Our menu pages are below — tap any page to view it up close.
+        More pages will be added here as they're photographed.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-sm-8 col-md-6 col-lg-4">
+        <div class="menu-card" data-bs-toggle="modal" data-bs-target="#menuModal" data-img="assets/img/menu-1.jpg" data-title="Menu — Page 1">
+          <img src="assets/img/menu-1.jpg" alt="Up Town Café menu, page 1" loading="lazy">
+          <div class="menu-card-label">
+            <span>Menu · Page 1</span>
+            <i class="bi bi-zoom-in"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-md-6 col-lg-4">
+        <div class="menu-card" data-bs-toggle="modal" data-bs-target="#menuModal" data-img="assets/img/menu-2.jpg" data-title="Menu — Page 2">
+          <img src="assets/img/menu-2.jpg" alt="Up Town Café menu, page 2" loading="lazy">
+          <div class="menu-card-label">
+            <span>Menu · Page 2</span>
+            <i class="bi bi-zoom-in"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-md-6 col-lg-4">
+        <div class="menu-card" data-bs-toggle="modal" data-bs-target="#menuModal" data-img="assets/img/menu-3.jpg" data-title="Menu — Page 3">
+          <img src="assets/img/menu-3.jpg" alt="Up Town Café menu, page 3" loading="lazy">
+          <div class="menu-card-label">
+            <span>Menu · Page 3</span>
+            <i class="bi bi-zoom-in"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Placeholder: add more menu pages later -->
+      <div class="col-sm-8 col-md-6 col-lg-4">
+        <div class="menu-card menu-card-placeholder">
+          <div class="menu-placeholder-inner">
+            <i class="bi bi-image"></i>
+            <p>More pages<br><span>coming soon</span></p>
+          </div>
+          <!-- REPLACE ME: swap this block for the same structure as the cards above
+               once you have a photo of another menu page. -->
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-note text-center mt-4">
+      <i class="bi bi-info-circle"></i>
+      Photographed menu pages — the source photos are low-resolution, so prices
+      may be easier to read in person. Replace with higher-resolution scans any time
+      for a sharper result.
+    </p>
+  </div>
+</section>
+
+<!-- Menu image lightbox modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content menu-modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="menuModalTitle">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center pt-0">
+        <img src="" id="menuModalImg" class="img-fluid rounded" alt="Menu page enlarged">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =============================== -->
+<!-- FOOD & DRINK HIGHLIGHTS -->
+<!-- =============================== -->
+<section class="section-highlights">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-5">
+        <p class="section-eyebrow text-light-eyebrow">Order ahead</p>
+        <h2 class="section-title text-light-title">Delivery, any<br>time of day</h2>
+        <p class="text-light-body">
+          Can't make it up to the roof? Up Town Café delivers through foodpanda —
+          same menu, straight to your door.
+        </p>
+        <a href="https://www.foodpanda.pk/food-ordering?c=pk&amp;s=s&amp;vc=dufy&amp;adj_t=1naixy2v_1nsybtos&amp;adj_campaign=google_reserve_place_order_action_CH-SEO_&amp;adj_redirect=https%3A%2F%2Ffoodpanda.pk%2Frestaurant%2Fdufy%2Fuptown-cafe-and-restaurant-dufy%3Futm_campaign%3Dgoogle_reserve_place_order_action_CH-SEO_"
+             target="_blank" rel="noopener" class="btn btn-reserve">
+            <i class="bi bi-bicycle"></i> Order on foodpanda
+        </a>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-cup-hot"></i><span>Coffee</span></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-cake2"></i><span>Dessert</span></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-cup-straw"></i><span>Tea</span></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-egg-fried"></i><span>Small Plates</span></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-patch-check"></i><span>Halal</span></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="badge-tile"><i class="bi bi-lightning-charge"></i><span>Quick Bite</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- RESERVATIONS -->
+<!-- =============================== -->
+<section id="reserve" class="section-reserve">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="reserve-card">
+          <div class="row g-0">
+            <div class="col-lg-5 reserve-info">
+              <p class="section-eyebrow">Book ahead</p>
+              <h2 class="section-title">Reserve a Table</h2>
+              <p class="text-muted-warm mb-4">
+                We accept reservations — handy for rooftop seating on busy
+                evenings, or if you'd like a specific spot for the view.
+              </p>
+              <ul class="reserve-points">
+                <li><i class="bi bi-check2"></i>Reservations accepted, any time — we're open 24 hours</li>
+                <li><i class="bi bi-check2"></i>Good for groups and solo diners alike</li>
+                <li><i class="bi bi-check2"></i>High chairs available for children</li>
+              </ul>
+              <a href="tel:+923000033350" class="call-link">
+                <i class="bi bi-telephone"></i> +92 300 0033350
+              </a>
+            </div>
+            <div class="col-lg-7 reserve-form-wrap">
+              <form id="reservationForm" class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                  <label for="resName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="resName" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="resPhone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="resPhone" required>
+                  <div class="invalid-feedback">Please enter a phone number.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="resEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="resEmail" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="resGuests" class="form-label">Guests</label>
+                  <select class="form-select" id="resGuests" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option>1</option><option>2</option><option>3</option>
+                    <option>4</option><option>5</option><option>6</option>
+                    <option>7+</option>
+                  </select>
+                  <div class="invalid-feedback">Please select party size.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="resDate" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="resDate" required>
+                  <div class="invalid-feedback">Please choose a date.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="resTime" class="form-label">Time</label>
+                  <input type="time" class="form-control" id="resTime" required>
+                  <div class="invalid-feedback">Please choose a time.</div>
+                </div>
+                <div class="col-12">
+                  <label for="resMessage" class="form-label">Special request <span class="text-muted-warm">(optional)</span></label>
+                  <textarea class="form-control" id="resMessage" rows="3" placeholder="Seating preference, occasion, high chair needed…"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-reserve w-100 w-sm-auto">Reserve Table</button>
+                  <p id="resFormNote" class="form-note mt-3 mb-0"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- HOURS -->
+<!-- =============================== -->
+<section id="hours" class="section-hours">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p class="section-eyebrow">Every day</p>
+        <h2 class="section-title">Opening Hours</h2>
+        <div class="hours-banner">
+          <i class="bi bi-clock-history"></i>
+          <div>
+            <p class="hours-banner-title">Open 24 Hours</p>
+            <p class="hours-banner-sub">Monday through Sunday — no closing time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- LOCATION -->
+<!-- =============================== -->
+<section id="contact" class="section-location">
+  <div class="container">
+    <div class="row g-0 location-card">
+      <div class="col-lg-5 location-info">
+        <p class="section-eyebrow">Find us</p>
+        <h2 class="section-title">Come Up to the Roof</h2>
+        <ul class="location-list">
+          <li>
+            <i class="bi bi-geo-alt"></i>
+            <div>
+              <strong>Rooftop, MPCHS E-11/3</strong><br>
+              E-11, Islamabad, 44000, Pakistan
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-telephone"></i>
+            <div><a href="tel:+923000033350">+92 300 0033350</a></div>
+          </li>
+          <li>
+            <i class="bi bi-pin-map"></i>
+            <div>Plus Code: PX3J+C3 Islamabad, Pakistan</div>
+          </li>
+        </ul>
+        <div class="location-actions">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=PX3J%2BC3+Islamabad%2C+Pakistan" target="_blank" rel="noopener" class="btn btn-reserve">
+            <i class="bi bi-signpost-2"></i> Get Directions
+          </a>
+          <a href="tel:+923000033350" class="btn btn-outline-hero">
+            <i class="bi bi-telephone"></i> Call Restaurant
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <!-- Map placeholder: replace the iframe src below with a real Google Maps
+             embed URL for MPCHS E-11/3, Islamabad when available. -->
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps?q=PX3J%2BC3+Islamabad,+Pakistan&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Map to Up Town Café">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- AMENITIES / CUSTOMER INFO -->
+<!-- =============================== -->
+<section class="section-amenities">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-eyebrow">Good to know</p>
+      <h2 class="section-title">Visiting Info</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-emoji-smile"></i> Atmosphere</h3>
+          <span class="badge amenity-badge">Casual</span>
+          <span class="badge amenity-badge">Cozy</span>
+          <span class="badge amenity-badge">Quiet</span>
+          <span class="badge amenity-badge">Romantic</span>
+          <span class="badge amenity-badge">Trendy</span>
+          <span class="badge amenity-badge">Upscale</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-people"></i> Crowd</h3>
+          <span class="badge amenity-badge">College Students</span>
+          <span class="badge amenity-badge">Groups</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-emoji-heart-eyes"></i> Children</h3>
+          <span class="badge amenity-badge">Good for Kids</span>
+          <span class="badge amenity-badge">High Chairs</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-p-square"></i> Parking</h3>
+          <span class="badge amenity-badge">Free Lot</span>
+          <span class="badge amenity-badge">Free Street</span>
+          <span class="badge amenity-badge">Usually Plenty</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-credit-card"></i> Payments</h3>
+          <span class="badge amenity-badge">Credit Cards</span>
+          <span class="badge amenity-badge">Debit Cards</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-universal-access-circle"></i> Accessibility</h3>
+          <span class="badge amenity-badge">Wheelchair Accessible Restroom</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-calendar-check"></i> Planning</h3>
+          <span class="badge amenity-badge">Accepts Reservations</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="amenity-block">
+          <h3><i class="bi bi-door-open"></i> Amenities</h3>
+          <span class="badge amenity-badge">Restroom</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- GALLERY -->
+<!-- =============================== -->
+<section id="gallery" class="section-gallery">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-eyebrow">A look inside</p>
+      <h2 class="section-title">Gallery</h2>
+    </div>
+    <div class="row g-3">
+      <div class="col-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/img/hero-1.jpg" alt="Up Town Café rooftop seating and bar" loading="lazy">
+        </div>
+      </div>
+      <!-- Placeholder gallery tiles — replace src with your own photos -->
+      <div class="col-6 col-md-4">
+        <div class="gallery-item gallery-placeholder">
+          <i class="bi bi-image"></i>
+          <!-- REPLACE ME: <img src="assets/img/gallery-2.jpg" alt="..."> -->
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="gallery-item gallery-placeholder">
+          <i class="bi bi-image"></i>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="gallery-item gallery-placeholder">
+          <i class="bi bi-image"></i>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="gallery-item gallery-placeholder">
+          <i class="bi bi-image"></i>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="gallery-item gallery-placeholder">
+          <i class="bi bi-image"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================== -->
+<!-- FOOTER -->
+<!-- =============================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <p class="footer-brand">Up Town <span>Café</span></p>
+        <p class="footer-text">Rooftop, MPCHS E-11/3<br>E-11, Islamabad, 44000, Pakistan</p>
+        <p class="footer-text"><a href="tel:+923000033350">+92 300 0033350</a></p>
+      </div>
+      <div class="col-lg-4">
+        <h4 class="footer-heading">Hours</h4>
+        <p class="footer-text">Open 24 hours, every day</p>
+        <h4 class="footer-heading mt-4">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reserve">Reserve</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4 class="footer-heading">Follow Along</h4>
+        <div class="footer-social">
+          <!-- REPLACE ME: add real profile URLs -->
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.foodpanda.pk/food-ordering?c=pk&amp;s=s&amp;vc=dufy" target="_blank" rel="noopener" aria-label="Order on foodpanda"><i class="bi bi-bicycle"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-rule">
+    <p class="footer-copyright">&copy; <span id="footerYear"></span> Up Town Café. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap Bundle (incl. Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
